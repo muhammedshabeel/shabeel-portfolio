@@ -427,10 +427,10 @@ export default function App() {
   {/* PROFILE IMAGE */}
   <div className="w-32 h-32 flex-shrink-0">
   <img
-    src="/images/profile.png"
-    alt="Muhammed Shabeel"
-    className="w-full h-full object-cover rounded-xl border border-white/10 shadow-lg"
-  />
+  src="/shabeel-portfolio/images/profile.png"
+  alt="Muhammed Shabeel"
+  className="w-full h-full object-cover rounded-xl border border-white/10 shadow-lg"
+/>
 </div>
 
   {/* INFO */}
