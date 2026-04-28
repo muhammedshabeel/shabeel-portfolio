@@ -422,19 +422,19 @@ export default function App() {
               <a href="https://linkedin.com/in/muhammedshabeel" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 font-black text-white transition hover:bg-white/10"><Globe2 className="h-5 w-5" /> LinkedIn</a>
             </div>
           </div>
-          <div className="relative bg-[#020617] border border-white/10 rounded-2xl p-6 flex items-center gap-6">
+          <div className="relative bg-[#020617] border border-white/10 rounded-2xl p-6 flex flex-col md:flex-row items-center md:items-start gap-6">
 
   {/* PROFILE IMAGE */}
-  <div className="w-32 h-32 flex-shrink-0">
-  <img
-  src="/shabeel-portfolio/images/profile.png"
-  alt="Muhammed Shabeel"
-  className="w-full h-full object-cover rounded-xl border border-white/10 shadow-lg"
-/>
-</div>
+  <div className="w-28 h-28 md:w-32 md:h-32 flex-shrink-0">
+    <img
+      src={`${import.meta.env.BASE_URL}images/profile.png`}
+      alt="Muhammed Shabeel"
+      className="w-full h-full object-cover rounded-xl border border-white/10 shadow-lg"
+    />
+  </div>
 
   {/* INFO */}
-  <div>
+  <div className="text-center md:text-left">
     <h3 className="text-xl font-bold">Muhammed Shabeel P.P</h3>
     <p className="text-cyan-300 text-sm mb-3">Digital Growth & Systems Architect</p>
 
