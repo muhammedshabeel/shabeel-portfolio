@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: #020617;
+  color: #f8fafc;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+::selection { background: rgba(34, 211, 238, .35); color: white; }
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+  background-size: 58px 58px;
+}
+.glass {
+  background: linear-gradient(135deg, rgba(255,255,255,.105), rgba(255,255,255,.035));
+  border: 1px solid rgba(255,255,255,.12);
+  backdrop-filter: blur(22px);
+}
+.text-gradient {
+  background: linear-gradient(90deg, #ffffff, #67e8f9, #a5b4fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.card-hover {
+  transition: transform .35s ease, border-color .35s ease, background .35s ease, box-shadow .35s ease;
+}
+.card-hover:hover {
+  transform: translateY(-7px);
+  border-color: rgba(34,211,238,.5);
+  box-shadow: 0 28px 80px rgba(34,211,238,.09);
+  background: linear-gradient(135deg, rgba(34,211,238,.13), rgba(99,102,241,.10));
+}
+.image-frame img { filter: saturate(1.05) contrast(1.03); }
