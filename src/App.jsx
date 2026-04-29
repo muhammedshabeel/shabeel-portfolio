@@ -27,7 +27,7 @@ const fadeUp = {
 
 const metrics = [
   { value: "99K", label: "GA4 active users", detail: "Last 90 days" },
-  { value: "< AED 1.5", label: "Meta WhatsApp CPR", detail: "Reduced from AED 6" },
+  { value: "< AED 1.5", label: "Meta WhatsApp CPR", detail: "Reduced from AED 4" },
   { value: "202K", label: "Organic impressions", detail: "Search Console, 3 months" },
   { value: "1.94K", label: "Merchant products", detail: "Catalog operations" },
   { value: "AED 26K", label: "Tracked revenue", detail: "GA4 purchase revenue snapshot" },
@@ -230,7 +230,7 @@ export default function App() {
             </div>
             <div className="mt-5 grid grid-cols-2 gap-4">
               {[
-                ["Meta Leads", "AED 6 → <1.5 CPR", Megaphone],
+                ["Meta Leads", "AED 4 → <1.5 CPR", Megaphone],
                 ["Organic Search", "202K impressions", Search],
                 ["Merchant Health", "Great rating", ShoppingBag],
                 ["Tech SEO", "0 poor URLs", ShieldCheck],
@@ -254,7 +254,7 @@ export default function App() {
                 <div className="flex-1">
                   <div className="h-28 rounded-t-2xl bg-red-400/55" />
                   <p className="mt-2 text-center text-xs text-slate-400">Before</p>
-                  <p className="text-center font-black">AED 6</p>
+                  <p className="text-center font-black">AED 4</p>
                 </div>
                 <div className="flex-1">
                   <div className="h-8 rounded-t-2xl bg-emerald-300/80" />
@@ -276,7 +276,7 @@ export default function App() {
       <Section id="case" eyebrow="Current role case study" title="Emarath — scaling acquisition, conversion, catalog and revenue systems." subtitle="I own work across the full digital revenue lifecycle: traffic acquisition, WhatsApp lead generation, SEO performance, commerce tracking, product visibility, merchant quality and technical infrastructure.">
         <div className="grid gap-6 lg:grid-cols-4">
           {[
-            ["Meta Lead Generation", "AED 6 → < AED 1.5 CPR", "Optimized WhatsApp lead generation campaigns by improving targeting, creative direction, funnel intent and lead quality.", Megaphone],
+            ["Meta Lead Generation", "AED 4 → < AED 1.5 CPR", "Optimized WhatsApp lead generation campaigns by improving targeting, creative direction, funnel intent and lead quality.", Megaphone],
             ["GA4 Commerce", "99K users / AED 26K revenue", "Tracked active users, new users, add-to-carts, purchases, ARPPU and revenue behavior through GA4.", BarChart3],
             ["SEO Visibility", "202K impressions", "Managed organic performance with 4.86K clicks, 2.4% CTR and 9.5 average position over 3 months.", Search],
             ["Merchant Center", "1.94K products", "Managed product feed health, approvals, listings and store quality signals across Google Merchant Center.", ShoppingBag],
@@ -330,7 +330,7 @@ export default function App() {
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="glass rounded-[2rem] p-8 shadow-premium lg:col-span-2">
             <div className="grid gap-6 md:grid-cols-3">
-              <StatCard value="AED 6" label="Previous CPR" detail="WhatsApp lead baseline" />
+              <StatCard value="AED 4" label="Previous CPR" detail="WhatsApp lead baseline" />
               <StatCard value="< AED 1.5" label="Optimized CPR" detail="After campaign optimization" />
               <StatCard value="75%+" label="Cost reduction" detail="Efficiency gain" />
             </div>
@@ -354,7 +354,7 @@ export default function App() {
             <p className="text-sm font-black uppercase tracking-[.25em] text-cyan-300">Interview-ready story</p>
             <h3 className="mt-4 text-3xl font-black text-white">From costly leads to efficient demand capture.</h3>
             <p className="mt-5 leading-8 text-slate-300">
-              Earlier campaigns generated WhatsApp leads at around AED 6 CPR. I optimized campaign structure, targeting and messaging until CPR dropped below AED 1.5. That is a serious efficiency gain—not a cosmetic improvement.
+              Earlier campaigns generated WhatsApp leads at around AED 4 CPR. I optimized campaign structure, targeting and messaging until CPR dropped below AED 1.5. That is a serious efficiency gain—not a cosmetic improvement.
             </p>
           </div>
         </div>
@@ -385,7 +385,7 @@ export default function App() {
       <Section id="experience" eyebrow="Experience" title="Professional experience.">
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ staggerChildren: .08 }} className="grid gap-10 lg:grid-cols-3">
           <TimelineItem year="2025 — Present" company="Emarath" role="E-Commerce & Digital Growth Manager" bullets={[
-            "Optimized Meta WhatsApp lead generation CPR from AED 6 to below AED 1.5.",
+            "Optimized Meta WhatsApp lead generation CPR from AED 4 to below AED 1.5.",
             "Managed GA4 reporting across 99K active users, revenue, purchase and add-to-cart events.",
             "Monitored SEO performance across 202K impressions, 4.86K clicks, 2.4% CTR and 9.5 average position.",
             "Maintained Core Web Vitals health with 215 good desktop URLs and 0 poor URLs.",
