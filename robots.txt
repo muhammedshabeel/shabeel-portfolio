@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://muhammedshabeel.github.io/shabeel-portfolio/sitemap.xml
