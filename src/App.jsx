@@ -365,6 +365,7 @@ export default function App() {
               <a key={href} href={href} className="hover:text-white transition-colors">{label}</a>
             ))}
           </div>
+          <a href={`${import.meta.env.BASE_URL}dtc-portfolio.html`} className="text-sm font-bold text-violet-300 hover:text-white transition-colors">DTC Portfolio ↗</a>
           <a href="#contact" className="btn-primary px-5 py-2.5 text-sm">
             Hire Me <ArrowUpRight className="w-4 h-4" />
           </a>
